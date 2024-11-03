@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+:root{
+    --text-color:#333333;
+}
+body{
+    font-family: "Poppins", serif;
+
+}
+
+.bg-image-container-fluid {
+    background-image: url('asset/background.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+    padding: 50px; 
+  }
+  
+.navbar-brand,
+.navbar-nav,
+.nav-link {
+    color: #333333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #333333;
+}
+
+.color1{
+    color: #333333;
+}
+
+.btn{
+    background-color: #E5E7EB;
+    color: black;
+    width: 150px;
+    height: 46px;
+    border: 3px solid black;
+}
+
+.btn-flex{
+    width: 160px;
+    height: 53px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.as-seen img{
+    width: 195px;
+    height: 45px;
+}
+
+.color1{
+    background-color:  #002A45;
+}
+
+.color2{
+    background-color: #D4E7F3;
+    
+}
+.color3{
+    color: #4F7396;
+}
+
+.price-btn{
+    background-color: transparent;
+    border: 1px solid black;
+  color: black; 
+}
+.price-btn2{
+    background-color: transparent;
+    border: 1px solid white;
+  color: white; 
+}
+.price-btn2:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.price-btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.icon{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.icon2{
+    font-size: 50px;
+    font-weight: 900;
+} 
+
+.icon3{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}  
+
+.liner-bg{
+background:linear-gradient(
+  to right, 
+  rgba(255, 255, 255,), 
+  rgba(245, 245, 245,),  
+  rgba(217, 217, 217, 0.1) 
+);
+}
+
+
+footer{
+    background-image: url(asset/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:600px) {
+    .nav-logo{
+        width: 170px;
+        height: 40px;
+    }
+    
+}
